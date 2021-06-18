@@ -170,9 +170,21 @@ public class testeksamen {
 																							            System.out.println("nepareizi");
 																							            nep=+1;
 																							        } else if (y == 3) {
-																							            System.out.println("nepareizi");
+																							           System.out.println("nepareizi");
 																							            nep=+1;
 																							        }
-	}
+																							        eks.write("parezi atbildes" + prav);
+																							        eks.write("neparezi atbildes" + 1);
+																									eks.close();
+					     break;
+					     
+				        
+		        case("x"):
+		        	System.exit(0);
+					break;
+				}
 
-}
+			}while(vibor!="x");
+			
+		}
+	}
