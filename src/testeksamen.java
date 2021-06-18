@@ -1,7 +1,22 @@
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 public class testeksamen {
 
-	public static void main(String[] args) {
+
+		public static void piza() throws FileNotFoundException {
+			
+		}
+		
+		public static void main(String[] args) throws IOException {
+			int prav=0,nep=0 ;
+			String[]lo = new String[] {"1","2","3","4"};
+			String vibor;
+			
+			FileWriter eks = new FileWriter ("eksamens11.txt");
 			do {
 				vibor = JOptionPane.showInputDialog(" 1 - test | x - Apturēt programmu");
 				switch(vibor) {
